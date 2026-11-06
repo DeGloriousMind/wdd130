@@ -1,0 +1,65 @@
+/* Body and General Layout */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styling */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+/* Main Content Container */
+main {
+    width: 400px;
+    margin: 0 auto;
+}
+
+/* Heading 1 */
+h1 {
+    margin: 10px;
+    text-align: center;
+}
+
+/* Image and Shadow */
+img {
+    width: 100%;
+    height: auto;
+    box-shadow: 0 0 30px gray;
+}
+
+/* Sections */
+section {
+    margin: 10px 20px;
+    border: 1px solid rgb(0 0 0 / 10%);
+    padding: 10px;
+    background-color: #f4f4f9;
+    font-size: 90%;
+}
+
+/* Heading 2 */
+h2 {
+    border-bottom: 1px solid #333;
+    padding-bottom: 5px;
+}
+
+/* Unordered List */
+ul {
+    margin: 10px 20px;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.9rem;
+    margin-top: 20px;
+}
