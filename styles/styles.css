@@ -1,14 +1,13 @@
 /* Global Body Styles & Brown Background */
 body {
-    font-family: Arial, sans-serif.
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 20px;
     background-color: brown;
-    color: #f4f4f4; /* Light text for readability against the brown background */
+    color: #f4f4f4;
     line-height: 1.6;
 }
 
-/* Header & Navigation Styling */
 header {
     margin-bottom: 20px;
     text-align: center;
@@ -34,13 +33,21 @@ nav a:hover {
     text-decoration: underline;
 }
 
-/* Main Heading */
+main {
+    max-width: 840px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
 h1 {
     font-size: 1.8rem;
     margin-bottom: 15px;
     color: #fff;
 }
-/* Profile image inside main */
+
 main img {
     width: 150px;
     height: auto;
@@ -51,20 +58,18 @@ main img {
     margin-bottom: 15px;
 }
 
-/* Paragraph styling */
 p {
     padding: 0;
     margin: 10px 0;
 }
 
-/* Aside Element Styling (State/Country Card) */
 aside {
     width: 20rem;
     margin: 2rem auto;
     border: 1px solid rgb(255 255 255 / 0.3);
     padding: 1rem;
-    background-color: #eee; /* Light card background as requested by assignment */
-    color: #333; /* Dark text inside the light card */
+    background-color: #eee;
+    color: #333;
     text-align: center;
     border-radius: 8px;
 }
@@ -74,14 +79,12 @@ aside h2 {
     color: #333;
 }
 
-/* Image inside Aside */
 aside img {
     width: 200px;
     height: auto;
     border-radius: 4px;
 }
 
-/* Footer Styling */
 footer {
     margin-top: 20px;
     border-top: 1px solid #fff;
