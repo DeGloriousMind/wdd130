@@ -1,0 +1,95 @@
+/* Global Body Styles & Brown Background */
+body {
+    font-family: Arial, sans-serif.
+    margin: 0;
+    padding: 20px;
+    background-color: brown;
+    color: #f4f4f4; /* Light text for readability against the brown background */
+    line-height: 1.6;
+}
+
+/* Header & Navigation Styling */
+header {
+    background-color: #333;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content Wrapper */
+main {
+    max-width: 840px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.2); /* Soft backdrop for readability */
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* Main Heading */
+h1 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+/* Profile Image inside Main */
+main img {
+    width: 150px;
+    height: auto;
+    border-radius: 50%; /* Optional circle crop for profile */
+    border: 3px solid #fff;
+    margin-bottom: 15px;
+}
+
+/* Paragraph styling */
+p {
+    padding: 0;
+    margin: 10px 0;
+}
+
+/* Aside Element Styling (State/Country Card) */
+aside {
+    width: 20rem;
+    margin: 2rem auto;
+    border: 1px solid rgb(255 255 255 / 0.3);
+    padding: 1rem;
+    background-color: #eee; /* Light card background as requested by assignment */
+    color: #333; /* Dark text inside the light card */
+    text-align: center;
+    border-radius: 8px;
+}
+
+aside h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+/* Image inside Aside */
+aside img {
+    width: 200px;
+    height: auto;
+    border-radius: 4px;
+}
+
+/* Footer Styling */
+footer {
+    margin-top: 20px;
+    border-top: 1px solid #fff;
+    text-align: center;
+    padding: 15px 0;
+    color: #fff;
+    font-size: 0.9rem;
+}
