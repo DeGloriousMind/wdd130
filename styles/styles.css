@@ -10,32 +10,28 @@ body {
 
 /* Header & Navigation Styling */
 header {
-    background-color: #333;
-    padding: 10px 20px;
-    text-align: center;
-    border-radius: 5px;
     margin-bottom: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
 }
 
 nav a {
     color: white;
+    padding: 10px 20px;
+    display: block;
     text-decoration: none;
-    margin: 0 15px;
     font-weight: bold;
 }
 
 nav a:hover {
     text-decoration: underline;
-}
-
-/* Main Content Wrapper */
-main {
-    max-width: 840px;
-    margin: 0 auto;
-    background-color: rgba(0, 0, 0, 0.2); /* Soft backdrop for readability */
-    padding: 20px;
-    border-radius: 8px;
-    text-align: center;
 }
 
 /* Main Heading */
