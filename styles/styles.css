@@ -49,8 +49,8 @@ main img {
     width: 150px;
     height: auto;
     border: 3px solid #fff;
-    padding: 5px;             /* 👈 Added padding */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* 👈 Added box-shadow */
+    padding: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     border-radius: 50%;
     margin-bottom: 15px;
 }
